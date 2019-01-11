@@ -1,12 +1,13 @@
 '''
 When this script is run, two inputs are expected from the user:
--The tool name (example:Ages_Puzzle)
+-The tool name (example: AstRoamer_Element_Hunt_Activity)
 -The absolute path of the folder containing the json files(of a single tool) to be converted to csv
 
 This script checks whether or not the path exists
 The files having '.json' extension are picked and are collated into a single json file
 This collated json is now converted into an output csv file
 The csv file is generated with the foldername and the current timestamp
+
 '''
 
 import json
